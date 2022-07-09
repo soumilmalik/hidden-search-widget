@@ -42,15 +42,19 @@ body {
     height: 50px;
     width: 50px;
     transition: transform 0.3s ease;
+    border-radius: 19%;'
 }
 
 .btn:focus,
 .input:focus {
     outline: none;
+    border-radius: 12%;
 }
 
 .search.active .input {
     width: 200px;
+    border-radius: 6%;
+
 }
 
 .search.active .btn {
